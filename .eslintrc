@@ -1,0 +1,14 @@
+{
+  "extends": "react-app",
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "arrow-parens": "off",
+    "no-mixed-operators": "off",
+    "no-throw-literal": "off",
+    "react-hooks/rules-of-hooks": "off",
+    "import/no-anonymous-default-export": "off",
+    "no-redeclare": "off"
+  },
+  "ignorePatterns": ["node_modules/", ".next/"]
+}
